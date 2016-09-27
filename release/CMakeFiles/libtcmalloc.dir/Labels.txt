@@ -1,0 +1,13 @@
+# Target labels
+ libtcmalloc
+# Source files and their labels
+/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc
+/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc.rule
+/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc-complete.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule
+/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule

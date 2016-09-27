@@ -1,0 +1,13 @@
+# Target labels
+ libbz2
+# Source files and their labels
+/home/hou/Documents/graphlab/release/CMakeFiles/libbz2
+/home/hou/Documents/graphlab/release/CMakeFiles/libbz2.rule
+/home/hou/Documents/graphlab/release/CMakeFiles/libbz2-complete.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-install.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-mkdir.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-download.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-update.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-patch.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-configure.rule
+/home/hou/Documents/graphlab/deps/libbz2/src/libbz2-stamp/libbz2-build.rule

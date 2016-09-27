@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/release/CMakeFiles/libtcmalloc-complete.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-install.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-mkdir.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-download.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-update.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-patch.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-configure.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/tcmalloc/src/libtcmalloc-stamp/libtcmalloc-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libtcmalloc"
+		],
+		"name" : "libtcmalloc"
+	}
+}
