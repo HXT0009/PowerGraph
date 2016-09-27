@@ -1,0 +1,193 @@
+Tue Sep 27 11:52:10 SGT 2016
+System Information: 
+#55-Ubuntu SMP Thu Aug 11 18:01:55 UTC 2016
+Compiler Information: 
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+g++ (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609
+Copyright (C) 2015 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+cmake version 3.5.1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+# Release build directory:
+	 RELEASE_DIR=release
+# Debug build directory (optimization disabled):
+	 DEBUG_DIR=debug
+# Directory in which graphlab is installed (prefix):
+	 INSTALL_DIR=/usr/local
+# Is experimental (research) code enabled:
+	 EXPERIMENTAL=false
+# The graphlab home directory: 
+	 GRAPHLAB_HOME=/home/hou/Documents/graphlab
+# The directory in which graphlab installs external dependencies:
+	 DEPS_PREFIX=/home/hou/Documents/graphlab/deps/local
+# Use OpenMP?  This can accelerate some graph building code: 
+	 NO_OPENMP=false
+# Use MPI?  Without MPI GraphLab cannot run distributed: 
+	 NO_MPI=false
+# Use tcmalloc?  Thread-Caching Malloc improves memory allocation: 
+	 NO_TCMALLOC=false
+# The c compiler to use: 
+	 CC=gcc
+# The c++ compiler to use: 
+	 CXX=g++
+# Any addition user defined CFLAGS: 
+	 CFLAGS=
+# The Java compiler: 
+	 JAVAC=javac
+# The cmake binary used to geneate the project:
+	 CMAKE=cmake
+
+
+
+======================= Release ========================
+cmake -D CMAKE_BUILD_TYPE=Release -D NO_OPENMP:BOOL=false -D NO_MPI:BOOL=false -D NO_TCMALLOC:BOOL=false -D CMAKE_INSTALL_PREFIX:STRING=/usr/local -D EXPERIMENTAL:BOOL=false -D CPP11:BOOL=false -D VID32:BOOL=false ../.
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.a/home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.a/home/hou/Documents/graphlab/deps/local/lib/libboost_system.a/home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.a/home/hou/Documents/graphlab/deps/local/lib/libboost_context.a/home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.a
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_system.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_system.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_context.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_context.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.so
+-- Boost Shared libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.so/home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.so/home/hou/Documents/graphlab/deps/local/lib/libboost_system.so/home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.so/home/hou/Documents/graphlab/deps/local/lib/libboost_context.so/home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.so
+-- Found Java: /usr/bin/java (found version "1.8.0.91") 
+-- Found JNI: /usr/lib/jvm/default-java/jre/lib/amd64/libjawt.so  
+-- jni.h was found at /usr/lib/jvm/default-java/include/jni.h
+-- Java Home guessed: /usr/lib/jvm/default-java
+-- Could NOT find ANT (missing:  ANT_EXEC) 
+-- Building libhdfs
+-- Found MPI_C: /usr/lib/openmpi/lib/libmpi.so  
+-- Found MPI_CXX: /usr/lib/openmpi/lib/libmpi_cxx.so;/usr/lib/openmpi/lib/libmpi.so  
+-- MPI Found: /usr/lib/openmpi/lib/libmpi_cxx.so/usr/lib/openmpi/lib/libmpi.so
+-- Looking for pthread_setaffinity_np
+-- Looking for pthread_setaffinity_np - found
+-- Performing Test HAS_MARCH_NATIVE
+-- Performing Test HAS_MARCH_NATIVE - Success
+-- Performing Test HAS_MTUNE_NATIVE
+-- Performing Test HAS_MTUNE_NATIVE - Success
+-- Performing Test HAS_WNO_LOCAL_TYPEDEFS
+-- Performing Test HAS_WNO_LOCAL_TYPEDEFS - Success
+-- Performing Test HAS_CRC32
+-- Performing Test HAS_CRC32 - Success
+-- Release build with C++ flags: -O3 -Wno-unused-local-typedefs -Wno-attributes -march=native -mtune=native  -Wall -g  -fopenmp -DHAS_BUILTIN_CRC32
+-- Release build with C flags: -O3 -Wno-attributes -march=native -mtune=native  -Wall -g  -fopenmp
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Copying Files: *
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_tsv
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_tsv/test.tsv
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_adj
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_adj/test.adj
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/CMakeLists.txt
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_snap
+-- Up-to-date: /home/hou/Documents/graphlab/release/tests/data/test_snap/test.snap
+-- Detected demo app: rpc
+-- Detected demo app: pagerank
+-- Detected demo app: dsl
+-- Detected Toolkit: clustering
+-- Detected Toolkit: collaborative_filtering
+-- Detected Toolkit: graphical_models
+-- Detected App: test_dense_table
+-- Detected App: denoise
+-- Detected App: test_bool_var
+-- Detected App: test_sparse_table
+-- Detected App: test_MAD_relation
+-- Detected Toolkit: computer_vision
+-- Detected Toolkit: linear_solvers
+-- Detected Toolkit: extensions
+-- Detected Toolkit: topic_modeling
+-- Detected Toolkit: graph_algorithms
+-- Detected Toolkit: graph_analytics
+-- Detected App: concomp
+-- Detected App: example
+-- Detected App: cascades
+-- Detected App: label_propagation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hou/Documents/graphlab/release
+
+
+
+======================= Debug =========================
+cmake -D CMAKE_BUILD_TYPE=Debug -D NO_OPENMP:BOOL=false -D NO_MPI:BOOL=false -D NO_TCMALLOC:BOOL=false -D CMAKE_INSTALL_PREFIX:STRING=/usr/local -D EXPERIMENTAL:BOOL=false -D CPP11:BOOL=false -D VID32:BOOL=false ../.
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.a/home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.a/home/hou/Documents/graphlab/deps/local/lib/libboost_system.a/home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.a/home/hou/Documents/graphlab/deps/local/lib/libboost_context.a/home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.a
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_system.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_system.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_context.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_context.so
+-- Boost libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.a
+-- Boost dyn libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.so
+-- Boost Shared libs: /home/hou/Documents/graphlab/deps/local/lib/libboost_filesystem.so/home/hou/Documents/graphlab/deps/local/lib/libboost_program_options.so/home/hou/Documents/graphlab/deps/local/lib/libboost_system.so/home/hou/Documents/graphlab/deps/local/lib/libboost_iostreams.so/home/hou/Documents/graphlab/deps/local/lib/libboost_context.so/home/hou/Documents/graphlab/deps/local/lib/libboost_date_time.so
+-- Found Java: /usr/bin/java (found version "1.8.0.91") 
+-- Found JNI: /usr/lib/jvm/default-java/jre/lib/amd64/libjawt.so  
+-- jni.h was found at /usr/lib/jvm/default-java/include/jni.h
+-- Java Home guessed: /usr/lib/jvm/default-java
+-- Could NOT find ANT (missing:  ANT_EXEC) 
+-- Building libhdfs
+-- Found MPI_C: /usr/lib/openmpi/lib/libmpi.so  
+-- Found MPI_CXX: /usr/lib/openmpi/lib/libmpi_cxx.so;/usr/lib/openmpi/lib/libmpi.so  
+-- MPI Found: /usr/lib/openmpi/lib/libmpi_cxx.so/usr/lib/openmpi/lib/libmpi.so
+-- Looking for pthread_setaffinity_np
+-- Looking for pthread_setaffinity_np - found
+-- Performing Test HAS_MARCH_NATIVE
+-- Performing Test HAS_MARCH_NATIVE - Success
+-- Performing Test HAS_MTUNE_NATIVE
+-- Performing Test HAS_MTUNE_NATIVE - Success
+-- Performing Test HAS_WNO_LOCAL_TYPEDEFS
+-- Performing Test HAS_WNO_LOCAL_TYPEDEFS - Success
+-- Performing Test HAS_CRC32
+-- Performing Test HAS_CRC32 - Success
+-- Debug build with C++ flags: -O0 -Wno-unused-local-typedefs -Wno-attributes -march=native -Winit-self  -Wall -g  -fopenmp
+-- Debug build with C flags: -O0 -Wno-attributes -march=native -Winit-self  -Wall -g  -fopenmp
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Copying Files: *
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_tsv
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_tsv/test.tsv
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_adj
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_adj/test.adj
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/CMakeLists.txt
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_snap
+-- Up-to-date: /home/hou/Documents/graphlab/debug/tests/data/test_snap/test.snap
+-- Detected demo app: rpc
+-- Detected demo app: pagerank
+-- Detected demo app: dsl
+-- Detected Toolkit: clustering
+-- Detected Toolkit: collaborative_filtering
+-- Detected Toolkit: graphical_models
+-- Detected App: test_dense_table
+-- Detected App: denoise
+-- Detected App: test_bool_var
+-- Detected App: test_sparse_table
+-- Detected App: test_MAD_relation
+-- Detected Toolkit: computer_vision
+-- Detected Toolkit: linear_solvers
+-- Detected Toolkit: extensions
+-- Detected Toolkit: topic_modeling
+-- Detected Toolkit: graph_algorithms
+-- Detected Toolkit: graph_analytics
+-- Detected App: concomp
+-- Detected App: example
+-- Detected App: cascades
+-- Detected App: label_propagation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hou/Documents/graphlab/debug
