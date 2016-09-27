@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop-complete.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-install.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-mkdir.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-download.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-update.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-patch.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-configure.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-build.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hadoop"
+		],
+		"name" : "hadoop"
+	}
+}

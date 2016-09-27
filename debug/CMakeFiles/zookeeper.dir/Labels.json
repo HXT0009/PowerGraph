@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper-complete.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-install.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-mkdir.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-download.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-update.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-patch.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-configure.rule"
+		},
+		{
+			"file" : "/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zookeeper"
+		],
+		"name" : "zookeeper"
+	}
+}

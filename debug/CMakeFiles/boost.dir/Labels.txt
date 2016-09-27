@@ -1,0 +1,13 @@
+# Target labels
+ boost
+# Source files and their labels
+/home/hou/Documents/graphlab/debug/CMakeFiles/boost
+/home/hou/Documents/graphlab/debug/CMakeFiles/boost.rule
+/home/hou/Documents/graphlab/debug/CMakeFiles/boost-complete.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-install.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-mkdir.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-download.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-update.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-patch.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-configure.rule
+/home/hou/Documents/graphlab/deps/boost/src/boost-stamp/boost-build.rule

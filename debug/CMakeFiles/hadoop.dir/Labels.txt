@@ -1,0 +1,14 @@
+# Target labels
+ hadoop
+# Source files and their labels
+/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop
+/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop.rule
+/home/hou/Documents/graphlab/debug/CMakeFiles/hadoop-complete.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-install.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-mkdir.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-download.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-update.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-patch.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-configure.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-build.rule
+/home/hou/Documents/graphlab/deps/hadoop/src/hadoop-stamp/hadoop-test.rule

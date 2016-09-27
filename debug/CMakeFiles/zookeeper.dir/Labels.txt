@@ -1,0 +1,13 @@
+# Target labels
+ zookeeper
+# Source files and their labels
+/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper
+/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper.rule
+/home/hou/Documents/graphlab/debug/CMakeFiles/zookeeper-complete.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-install.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-mkdir.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-download.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-update.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-patch.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-configure.rule
+/home/hou/Documents/graphlab/deps/zookeeper/src/zookeeper-stamp/zookeeper-build.rule
